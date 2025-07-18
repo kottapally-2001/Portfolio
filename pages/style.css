@@ -77,6 +77,22 @@ body {
     cursor: pointer;
     display: none;
 }
+.image img {
+  background-color: #ccc;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+
+}
 
 section {
     min-height: 100vh;
@@ -217,8 +233,9 @@ section {
 
 .home-sci {
     position: absolute;
-    bottom: 4rem;
-    width: 170px;
+    right: 9%;
+    bottom: 8rem;
+    width: 150px;
     display: flex;
     justify-content: space-between;
 }
